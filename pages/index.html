@@ -5,10 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Paradise island Overview"/>
     <meta name="keyword" content="paradise,island,beaches,resorts"/>
-    <meta name="aurhor" content="Shilpa biradar"/>
+    <meta name="author" content="Shilpa biradar"/>
 
     <link rel="icon" type="image/icon"  href="../multimedia/favicon-16x16.png"/>
     <title>Destination Overview</title>
+    <link rel="stylesheet" href="styles.css"/>
+    <style>
+
+        
+    </style>
 </head>
 <body>
     <header>
@@ -17,8 +22,8 @@
      <nav>
      <a href="../pages/about.html" target="_blank" >About</a>&nbsp;&nbsp;
      <a href="../pages/Expenses.html" target="_blank">Expenses</a>&nbsp;&nbsp;
-     <a href="../pages/Booking.html" target="_blank"  >Booking your holiday</a>&nbsp;&nbsp;
-     <a href="#Loc">Locattion</a> &nbsp;&nbsp; 
+     <a href="../pages/Booking.html" target="_blank" title="Booking Your Holiday" >Booking Your Holiday</a>&nbsp;&nbsp;
+     <a href="#Loc">Location</a> &nbsp;&nbsp; 
     </nav>
      
      
@@ -37,7 +42,7 @@
      /><br />
      <nav>
      <a href="#activities">Activities</a> &nbsp;&nbsp;
-     <a href="#NBA">Nearby Attraction</a> &nbsp;&nbsp;
+     <a href="#NBA" title="Attraction">Nearby Attraction</a> &nbsp;&nbsp;
      <a href="#RR">Recommend Restaurants</a> &nbsp;&nbsp;
      <a href="#TT">Travel Tips</a> &nbsp;&nbsp;
     </nav>
@@ -57,13 +62,16 @@
     </audio>
 
     <main>
+        <article id="Overview">
     <h2>Destination Overview</h2>
-    <p>
+    <!-- the below paragraph is inline style -->
+    <!-- <p style="color: rgb(159, 63, 63); font-size:medium"> -->
+        <p class="size input-color">
        <i> Paradise Island</i> is a tropical paradise located in the heart of the 
           Pacific Ocean. With its crystal-clear waters and lush landscapes, it's a<b>
           dream destination</b> for travelers seeking <strong> relaxation and 
           adventure</strong>. Whether you want to unwind on<em> sun-kissed</em> 
-          beaches or embark on thrilling <span style="color: blue;"> outdoor activities,</span> Paradise Island has
+          beaches or embark on thrilling <span> outdoor activities,</span> Paradise Island has
          something for everyone.
     </p>
         <p>
@@ -76,6 +84,7 @@
         <p>
             The coral reefs that surround <u> Paradise Island</u> are a kaleidoscope of colors, <q>housing an abundance of marine life</q>  that beckons snorkelers and divers to explore their vibrant underwater world. From playful dolphins to graceful sea turtles, the marine inhabitants add to the allure of this aquatic paradise
         </p>
+    </article>
     
     <div>
     <h2 id="activities">Activities</h2>
@@ -107,20 +116,20 @@
 
       <h2 id="RR">Recommended Restaurants</h2>
       <ul>
-        <li><b>Seafood Haven</b></li>
+        <li ><b>Seafood Haven</b></li>
         <ul>
-            <li>Coastal towns and cities often have maritime museums</li>
-            <li> Fishing charters, seafood cooking classes, boat tours</li>
+            <li class="desc_res" id="des1">Coastal towns and cities often have maritime museums</li>
+            <li class="desc_res"> Fishing charters, seafood cooking classes, boat tours</li>
         </ul>
         <li><b>Tropical Bites</b></li>
         <ul>
-            <li>Generally mild to warm coastal climates with variations depending on the specific region </li>
-            <li>Some specific seafood seasons may vary, such as lobster season or crab season.</li>
+            <li class="desc_res">Generally mild to warm coastal climates with variations depending on the specific region </li>
+            <li class="desc_res">Some specific seafood seasons may vary, such as lobster season or crab season.</li>
         </ul>
         <li><b>Island Grill</b></li>
         <ul>
-            <li>Tipping practices vary; in some cultures</li>
-            <li>Be aware of local fishing regulations if participating in recreational fishing</li>
+            <li class="desc_res">Tipping practices vary; in some cultures</li>
+            <li class="desc_res">Be aware of local fishing regulations if participating in recreational fishing</li>
         </ul>
       </ul>
     </div>
